@@ -1,0 +1,10 @@
+1000 - naive: 0 - binary: 0 - position: -1001
+2000 - naive: 0 - binary: 0 - position: -2001
+4000 - naive: 0 - binary: 0 - position: -4001
+8000 - naive: 0 - binary: 0 - position: -8001
+16000 - naive: 10 - binary: 0 - position: -16001
+32000 - naive: 10 - binary: 0 - position: -32001
+64000 - naive: 10 - binary: 0 - position: -64001
+128000 - naive: 20 - binary: 0 - position: -128001
+256000 - naive: 30 - binary: 0 - position: -256001
+512000 - naive: 70 - binary: 0 - position: -512001

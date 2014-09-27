@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import time
+import sys
 
 from entry import Entry
 import search
 
 
 def main():
+
+    name = sys.argv[1];
 
     for i in xrange(1, 11):
         fname = '../data/%d_catalog.txt' % i
@@ -24,7 +27,6 @@ def main():
         # let's sort the entries by name
         phonebook.sort(key=lambda e: e.name)
 
-        name = 'not there'
         # let' search for a non existing name using naive search
         start = time.time()
         idx = search.naive(phonebook, name)
@@ -35,7 +37,8 @@ def main():
         idx = search.binary_search(phonebook, name)
         bend = (time.time() - bstart) * 1000
 
-        print '%d - naive: %g - binary: %g'  % (len(phonebook), end, bend)
+        print '%d - naive: %g - binary: %g - position: %s'\
+              % (len(phonebook), end, bend, idx)
 
 
 if __name__ == '__main__':

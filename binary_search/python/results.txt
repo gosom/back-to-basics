@@ -1,10 +1,10 @@
-1000 - naive: 0.388861 - binary: 0.0200272
-2000 - naive: 0.48995 - binary: 0.013113
-4000 - naive: 0.865936 - binary: 0.0119209
-8000 - naive: 1.48797 - binary: 0.0109673
-16000 - naive: 3.72696 - binary: 0.0138283
-32000 - naive: 8.04996 - binary: 0.014782
-64000 - naive: 19.0718 - binary: 0.0150204
-128000 - naive: 40.699 - binary: 0.0171661
-256000 - naive: 80.7359 - binary: 0.0190735
-512000 - naive: 164.494 - binary: 0.0188351
+1000 - naive: 0.516176 - binary: 0.0269413 - position: -1001
+2000 - naive: 0.398874 - binary: 0.0109673 - position: -2001
+4000 - naive: 0.763893 - binary: 0.0100136 - position: -4001
+8000 - naive: 1.43194 - binary: 0.0112057 - position: -8001
+16000 - naive: 3.13187 - binary: 0.0140667 - position: -16001
+32000 - naive: 8.075 - binary: 0.0150204 - position: -32001
+64000 - naive: 19.1159 - binary: 0.0178814 - position: -64001
+128000 - naive: 39.8681 - binary: 0.0188351 - position: -128001
+256000 - naive: 80.9479 - binary: 0.0181198 - position: -256001
+512000 - naive: 164.571 - binary: 0.0197887 - position: -512001

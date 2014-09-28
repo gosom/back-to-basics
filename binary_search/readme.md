@@ -4,7 +4,6 @@ Binary Search
 
 Let's assume we have some files that represent telephone catalogs.
 We want to be able to locate if a name exists on the catalog.
-We also need to be able to locate if a telephone exists on the catalog.
 
 File build-demo-data.py will be used to generate telephone catalogs of
 different sizes.
@@ -52,4 +51,13 @@ For c++ compile:
 
 ```g++ --std=c++11 Entry.cpp search.cpp main.cpp -o search```
 
-- C++ requires boost library (uses string split method)
+* C++ requires boost library (uses string split method)
+
+
+Standard Library Implementations:
+
+    - For python check the [bisect](https://docs.python.org/2/library/bisect.html)
+    module.
+
+    - In c++ there is the [std::binary_search](http://en.cppreference.com/w/cpp/algorithm/binary_search)
+

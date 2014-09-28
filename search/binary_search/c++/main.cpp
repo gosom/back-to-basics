@@ -30,7 +30,7 @@ int main(int argc, const char** argv){
     const string name = argv[1];
 
     for(int i=1; i<11; ++i){
-        const string fname = "../data/" + to_string(i) + "_catalog.txt";
+        const string fname = "../../data/" + to_string(i) + "_catalog.txt";
         ifstream infile(fname);
 
         if(!infile){

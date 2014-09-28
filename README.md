@@ -28,10 +28,10 @@ learn how it works in a real example.
 
 ### Project Format
 
-- algo/data-structure-name
-    - c++
-    - python
-    - other-lang
+- family/"algo or data-structure"/
+    - /c++
+    - /python
+    - /other-lang
     - readme.md
     - other-file.txt
 
@@ -49,6 +49,6 @@ implementaions (usually to create demo data).
 
 ### Contents
 
-- Binary search
+- Search
 
 

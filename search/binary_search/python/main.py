@@ -12,7 +12,7 @@ def main():
     name = sys.argv[1];
 
     for i in xrange(1, 11):
-        fname = '../data/%d_catalog.txt' % i
+        fname = '../../data/%d_catalog.txt' % i
         #read the catalog and load to a list
         phonebook = []
         append = phonebook.append

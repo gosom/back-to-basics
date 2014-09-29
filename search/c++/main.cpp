@@ -19,6 +19,7 @@ bool compare(const Entry& x, const Entry& y){
 }
 
 
+
 float get_elapsed(const std::clock_t& begin_time,
                   const std::clock_t&end_time){
     return 1000 * (end_time - begin_time) / CLOCKS_PER_SEC;

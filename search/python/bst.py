@@ -1,5 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+BinarySearchTree Implementation
+Delete operation is not implemented
+
+See Usage:
+
+>>> b = BinarySearchTree()
+>>> b = BinarySearchTree()
+>>>
+>>> b.add('wow', 1)
+>>> b.add('awesome', 2)
+>>> b.add('vacation', 12)
+>>> b.add('work', 13)
+>>> 'wow' in b
+True
+>>> 'not' in b
+False
+>>> b.get('vacation')
+[12]
+>>> list(b.__iter__())
+['awesome', 'vacation', 'work', 'wow']
+
+"""
 
 
 class Node(object):
@@ -75,23 +98,3 @@ class BinarySearchTree(object):
 
     def __iter__(self):
         return self.root.__iter__()
-
-
-if __name__ == '__main__':
-
-    b = BinarySearchTree()
-
-    b.add('wow', 1)
-    b.add('awesome', 2)
-    b.add('malakas', 11)
-    b.add('poustraki', 12)
-    b.add('malakas', 13)
-
-    for k in b:
-        print k
-
-    print 'wow' in b
-    print 'not' in b
-
-    print b.get('poustraki')
-    print b.get('malakas')

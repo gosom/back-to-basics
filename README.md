@@ -26,14 +26,13 @@ solution (maybe better/worse) I will mention my idea in the readme.md.
 The goal is to learn how/when to use the algorithm or data structure and
 learn how it works in a real example.
 
-### Project Format
+### Project Structure
 
-- family/"algo or data-structure"/
+- name/ (name is the problem name)
     - /c++
     - /python
-    - /other-lang
     - readme.md
-    - other-file.txt
+    - other-files
 
 One folder per algorithm/data-structure/family of algs, which should contain
 a readme.md file and folders with the implementations in the different
